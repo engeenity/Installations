@@ -1,7 +1,7 @@
-<div ng-controller="MapTubeCtrl as maptube">
+<div ng-controller="MapTubeCtrl as vm">
     <div class="row">
         <div class="col-lg-12">
-            <ul class="list-group" ng-repeat="category in maptube.categories">
+            <ul class="list-group" ng-repeat="category in vm.categories">
                 <li class="list-group-item">
                     <p>{{category.title}}</p>
                     <ul class="list-group" ng-repeat="subcat in category.subcats">
